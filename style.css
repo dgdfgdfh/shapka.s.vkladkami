@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.tabcontent {
+    padding: 50px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+#Moscow {
+    background-color: red;
+}
+
+#Paris {
+    background-color: orange;
+}
+
+#Tokyo {
+    background-color: green;
+}
+
+#Oslo {
+    background-color: blue;
+}
+
+#tabList {
+    display: flex;
+}
+
+.tablink {
+    background-color: rgb(82, 82, 82);
+    border: none;
+    color: white;
+    padding: 15px 18px;
+    font-size: 18px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: rgb(82, 82, 82);
+
+}
